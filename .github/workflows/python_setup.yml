@@ -20,5 +20,5 @@ jobs:
       - name: Run Flake8 Linting
         run: flake8
       - name: Run Pytest
-        run: Pytest
+        run: pytest
   
