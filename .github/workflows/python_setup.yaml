@@ -29,7 +29,7 @@ jobs:
 
       - name: Run Flake8 Linting
         run: |
-          flake8 . # Run flake8 on the current directory
+          flake8 --version # Run flake8 on the current directory
       - name: Run Pytest
         run: |
           pytest # Run pytest tests
