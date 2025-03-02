@@ -22,6 +22,4 @@ jobs:
       - name: Run Flake8 Linting
         run: flake8 --version
       - name: Run Pytest
-        run: |
-          cd tests/
-          pytest
+        run: pytest --version
