@@ -20,7 +20,7 @@ jobs:
       - name: Check Python Version
         run: python --version
       - name: Run Flake8 Linting
-        run: flake8
+        run: flake8 --version
       - name: Run Pytest
         run: |
           cd tests/
