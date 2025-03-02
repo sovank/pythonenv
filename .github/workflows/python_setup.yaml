@@ -32,5 +32,5 @@ jobs:
           flake8 --version # Run flake8 on the current directory
       - name: Run Pytest
         run: |
-          pytest # Run pytest tests
+          pytest --version
   
