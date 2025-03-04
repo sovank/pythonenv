@@ -1,0 +1,14 @@
+name: Access ID
+on:
+  pussh:
+    branches:
+      - '*'
+jobs:
+  setupPython:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Print Access ID
+        run: echo "ACCESS_ID: ${{ vars.ACCESS_ID }}"
