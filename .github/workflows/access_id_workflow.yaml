@@ -1,6 +1,6 @@
 name: Access ID
 on:
-  pussh:
+  push:
     branches:
       - '*'
 jobs:
